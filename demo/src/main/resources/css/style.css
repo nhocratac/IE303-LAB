@@ -1,0 +1,65 @@
+.product-card {
+    -fx-background-color: #f4f4f4;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 10;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 4, 0, 0, 2);
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+.product-name {
+    -fx-padding: 0 0 0 15;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.product-description {
+    -fx-padding: 0 0 0 15;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #555;
+}
+
+.product-description--main {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #555;
+}
+.product-price {
+    -fx-text-fill: #555;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.product-price--main {
+    -fx-text-fill: #555;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.main-product {
+    -fx-padding: 10;
+}
+
+.product-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.product-brand {
+    -fx-padding: 0 0 0 5;
+}
+
+.bar-des {
+    -fx-padding: 0 5 0 5;
+}
+
+.main-product-display {
+
+}
