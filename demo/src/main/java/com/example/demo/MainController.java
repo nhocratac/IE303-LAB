@@ -1,10 +1,12 @@
 package com.example.demo;
 
+import javafx.animation.FadeTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.VBox;
+import javafx.util.Duration;
 
 import java.io.IOException;
 import java.util.List;
@@ -53,5 +55,9 @@ public class MainController {
         mainProductDisplayController.setProduct(product);
 
         mainProductDisplay.getChildren().add(mainProductNode);
+        FadeTransition ft = new FadeTransition(Duration.millis(800), mainProductNode );
+        ft.setFromValue(0);
+        ft.setToValue(1);
+        ft.play();
     }
 }
